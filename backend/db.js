@@ -1,6 +1,3 @@
-const mongoose = require('mongoose');
-mongoose.set('strictQuery', false);
-const mongoURI = "mongodb+srv://Aman:practice@cluster0.mr4padv.mongodb.net/?retryWrites=true&w=majority"
 
 
 const connectToMongo = () => {
